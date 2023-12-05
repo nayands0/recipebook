@@ -1,0 +1,48 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image:url("https://img.freepik.com/free-photo/copy-space-italian-food-ingredients_23-2148551732.jpg?w=900&t=st=1701701784~exp=1701702384~hmac=4bf363d021e7bce8cd61c932231687915946526aab05c763d40da3ac21479399");
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+h1  {
+    font-size: 40px;
+}
+header {
+   
+    color: #0f0f0f;
+    text-align: center;
+    padding: 2em 0;
+    
+}
+
+.recipe-container {
+    width: 80%;
+    margin: 20px auto;
+}
+.search-form,
+.add-recipe-form {
+    width: 80%;
+    margin: 20px auto;
+    background-color:#f7f5eb;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    
+}
+
+input,
+button {
+    margin-bottom: 10px;
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+button {
+    background-color:#FFFAFA;
+    color:#0f0f0f;
+    border: none;
+    cursor: pointer;
+}
